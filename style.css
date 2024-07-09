@@ -12,11 +12,28 @@ img{
     left: 200px;
     display: flex;
     background-color: rgb(206, 203, 203);
+    transition: 0.5s;
+}
+.container:hover{
+    box-shadow: 10px 10px 20px black;
+
 }
 input{
+    border: none;
     height: 20px;
     width: 400px;
+    transition: 0.5s;
+}
+input:hover{
+    box-shadow: 10px 10px 20px black;
+}
+a{
+    height: 22px;
 }
 .image{
     background-color: darkgray;
+    transition: 0.5s;
+}
+.image:hover{
+    box-shadow: 5px 5px 10px black;
 }
