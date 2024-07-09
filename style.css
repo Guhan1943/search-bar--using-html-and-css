@@ -1,0 +1,22 @@
+
+img{
+    padding: 3px;
+    height: 15px;
+    width: 15px;
+}
+.container{
+    padding: 10px;
+    position: relative;
+    width:430px ;
+    top: 200px;
+    left: 200px;
+    display: flex;
+    background-color: rgb(206, 203, 203);
+}
+input{
+    height: 20px;
+    width: 400px;
+}
+.image{
+    background-color: darkgray;
+}
